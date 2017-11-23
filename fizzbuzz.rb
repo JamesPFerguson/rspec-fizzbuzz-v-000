@@ -1,6 +1,7 @@
 def fizzbuzz(num)
 
 if (num % 3 == 0 || num % 5 == 0)
+  status = ""
   if (num % 3 == 0)
     status += "Fizz"
   end
